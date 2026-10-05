@@ -1,0 +1,17 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #0b0f14; color: #eef2f7; font-family: Arial, sans-serif; }
+a { color: inherit; }
+button, input, textarea { font: inherit; }
+.panel { max-width: 900px; margin: 0 auto; padding: 28px 18px 60px; }
+.card { background: #121821; border: 1px solid #25303d; border-radius: 16px; padding: 18px; margin-top: 16px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+label { display: block; font-weight: 700; margin-bottom: 8px; }
+input, textarea { width: 100%; background: #0d131b; border: 1px solid #303d4b; color: #fff; border-radius: 10px; padding: 11px; }
+textarea { min-height: 120px; resize: vertical; }
+button { border: 0; border-radius: 10px; padding: 11px 15px; cursor: pointer; background: #2ddc8b; color: #062016; font-weight: 800; }
+button.secondary { background: #243140; color: #eef2f7; }
+.row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.status { padding: 8px 10px; border-radius: 999px; background: #1d2936; display: inline-block; }
+.small { color: #aab6c3; font-size: 14px; line-height: 1.5; }
+.code { font-family: monospace; word-break: break-all; }
